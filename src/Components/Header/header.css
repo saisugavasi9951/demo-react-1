@@ -1,0 +1,14 @@
+.nav-bar-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    background-color: rgba(255, 0, 0, 0.4);
+    align-items: center;
+}
+.nav-list-con {
+    display: flex;
+}
+.nav-list-con li {
+    margin-right: 10px;
+    list-style-type: none;
+}
