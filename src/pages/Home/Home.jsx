@@ -1,12 +1,17 @@
 import React from 'react';
-import Slider from '../../Components/Slider/Slider';
+import HomeCarousel from '../../Components/Carousel/Carousel';
+import Card from '../../Components/Card/Card';
+import './home.css';
 
 const Home = () => {
   return (
     <div>
-      <h2>Welcome to my website!</h2>
-      <p>This is the home page.</p>
-      <Slider />
+      <HomeCarousel />
+      <div className='card-container'>
+        <Card />
+        <Card />
+        <Card />
+      </div>
     </div>
   );
 }
