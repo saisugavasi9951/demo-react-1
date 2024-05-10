@@ -1,7 +1,8 @@
 import React from 'react';
+import './home.css';
 import HomeCarousel from '../../Components/Carousel/Carousel';
 import Card from '../../Components/Card/Card';
-import './home.css';
+import AllCollapseAccordion from '../../Components/Accordion/Accordion';
 
 const Home = () => {
   return (
@@ -12,6 +13,7 @@ const Home = () => {
         <Card />
         <Card />
       </div>
+      <AllCollapseAccordion />
     </div>
   );
 }
