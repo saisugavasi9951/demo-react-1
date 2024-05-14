@@ -1,0 +1,11 @@
+.banner-fluid {
+    background-color: aqua;
+    height: 300px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.banner-container {
+    display: flex;
+    justify-content: center;
+}

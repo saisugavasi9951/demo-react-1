@@ -1,11 +1,9 @@
 import React from 'react';
+import PageBanner from '../../Components/PageBanner/PageBanner';
 
 const ContactUs = () => {
   return (
-    <div>
-      <h2>Welcome to my website!</h2>
-      <p>This is the Contact US.</p>
-    </div>
+    <PageBanner HeadingText='Contact Us' />
   );
 }
 
