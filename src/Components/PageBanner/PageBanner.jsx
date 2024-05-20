@@ -1,5 +1,5 @@
-import React from "react";
 import './page-banner.css';
+import React from "react";
 
 const PageBanner = ({HeadingText}) => {
     return(
