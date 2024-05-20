@@ -1,0 +1,9 @@
+.breadcrumb {
+    list-style: none;
+    display: flex;
+  }
+  
+  .breadcrumb li + li:before {
+    content: '>';
+    padding: 0 8px;
+  }

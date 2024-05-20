@@ -1,9 +1,13 @@
 import React from 'react';
 import PageBanner from '../../Components/PageBanner/PageBanner';
+import Breadcrumbs from '../../Components/Breadcrumb/Breadcrumb';
 
 const ContactUs = () => {
   return (
-    <PageBanner HeadingText='Contact Us' />
+    <div>
+      <PageBanner HeadingText='Contact Us' />
+      <Breadcrumbs />
+    </div>
   );
 }
 

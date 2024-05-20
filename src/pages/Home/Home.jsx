@@ -3,6 +3,7 @@ import './home.css';
 import HomeCarousel from '../../Components/Carousel/Carousel';
 import Card from '../../Components/Card/Card';
 import AllCollapseAccordion from '../../Components/Accordion/Accordion';
+import Tabs from '../../Components/Tabs/Tabs';
 
 const Home = () => {
   return (
@@ -15,6 +16,7 @@ const Home = () => {
           <Card />
         </div>
       </div>
+      <Tabs />
       <AllCollapseAccordion />
     </div>
   );

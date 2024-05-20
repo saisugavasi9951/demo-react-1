@@ -11,7 +11,7 @@ function HomeCard()  {
           width: "18rem", marginRight:'2em',
         }} className="card-style"
       >
-        <img alt="Sample" src="https://picsum.photos/300/200" />
+        <img className="card-image" alt="Sample" src="https://picsum.photos/300/200" />
         <CardBody>
           <CardTitle tag="h5">Card title</CardTitle>
           <CardSubtitle className="mb-2 text-muted" tag="h6">
