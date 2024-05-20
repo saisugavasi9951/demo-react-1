@@ -4,6 +4,8 @@ import Nav from 'react-bootstrap/Nav';
 import Navbar from 'react-bootstrap/Navbar';
 import NavDropdown from 'react-bootstrap/NavDropdown';
 import { Button, Offcanvas, OffcanvasHeader, OffcanvasBody } from 'react-bootstrap';
+import LoadingButton from '../LoadingBtn/LoadingBtn';
+import './header.css';
 
 function Header() {
   // State to manage the visibility of the Offcanvas
@@ -31,14 +33,35 @@ function Header() {
 
             <div>
               <Button variant="primary" onClick={toggleOffcanvas}>
-                Open
+                Plans
               </Button>
               <Offcanvas show={show} onHide={toggleOffcanvas} placement="end">
                 <OffcanvasHeader closeButton>
-                  <Offcanvas.Title>Offcanvas</Offcanvas.Title>
+                  <Offcanvas.Title>Our Subscription Plans</Offcanvas.Title>
                 </OffcanvasHeader>
                 <OffcanvasBody>
-                  <strong>This is the Offcanvas body.</strong>
+                  <strong>Basic Plan</strong>
+                  <ul>
+                    <li>Price: $9.99/month</li>
+                    <li>Benefits</li>
+                    <ul>
+                        <li>Access to basic features</li>
+                        <li>Monthly newsletter</li>
+                        <li>Community support</li>
+                    </ul>
+                  </ul>
+                  <strong>Pro Plan</strong>
+                  <ul>
+                    <li>Price: $19.99/month</li>
+                    <li>Benefits</li>
+                    <ul>
+                        <li>All features of the Basic Plan</li>
+                        <li>Priority customer support</li>
+                        <li>Access to premium content</li>
+                        <li>Monthly webinars with industry experts</li>
+                    </ul>
+                  </ul>
+                  <LoadingButton />
                 </OffcanvasBody>
               </Offcanvas>
             </div>

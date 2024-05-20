@@ -1,0 +1,5 @@
+@media only scree and (min-width: 991px) {
+    .nav-list-item {
+        margin-right: 30px;
+    }
+}

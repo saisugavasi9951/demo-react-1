@@ -8,10 +8,12 @@ const Home = () => {
   return (
     <div>
       <HomeCarousel />
-      <div className='card-container'>
-        <Card />
-        <Card />
-        <Card />
+      <div className='container-fluid'>
+        <div className='container card-container'>
+          <Card />
+          <Card />
+          <Card />
+        </div>
       </div>
       <AllCollapseAccordion />
     </div>
